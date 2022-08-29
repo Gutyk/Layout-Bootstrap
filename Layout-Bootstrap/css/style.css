@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #DC3545;
+    --purple: #2F0733;
+    --grey: #878392;
+}
+
+
+header {
+    background-color: var(--purple);
+}
+
+.logo {
+    filter: invert(30%) sepia(60%) saturate(2175%) hue-rotate(331deg) brightness(91%) contrast(90%);
+}
+
+.text-grey{
+    color: var(--grey) !important;
+}
+
+main{
+    margin: 4% 9%;
+}
+
+.my-videos-box{
+    background-color: var(--red);
+}
+
+.btn-red {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #DC3545;
+    --bs-btn-border-color: #DC3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #DC3545;
+    --bs-btn-hover-border-color: #DC3545;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #DC3545;
+    --bs-btn-active-border-color: #DC3545;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #DC3545;
+    --bs-btn-disabled-border-color: #DC3545;
+  }
